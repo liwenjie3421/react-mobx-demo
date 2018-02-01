@@ -16,6 +16,7 @@ class LeftNav extends React.Component {
                     left
                 </h1>
                 <Link to="/news">news</Link>
+                <br />
                 <Link to="/activities">activities</Link>
             </div>
         );

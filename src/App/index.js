@@ -2,8 +2,8 @@ import React from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 import LeftNav from './leftNav';
-import News from './leftNav';
-import Activities from './leftNav';
+import News from './news';
+import Activities from './activities';
 
 const route = () => ( 
     <Router>

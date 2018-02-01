@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
+import { Provider } from 'mobx-react';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import store from './store';
 
+ReactDOM.render(
+<Provider {...store}>
+    <App />
+</Provider>, document.getElementById('root'));
